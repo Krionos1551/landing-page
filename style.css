@@ -1,0 +1,39 @@
+.headerbox {
+  display: flex;
+  flex-direction: column;
+  background-color: darkblue;
+  justify-content: space-between;
+  border: 5px solid red;
+}
+
+.logopic {
+  display: flex;
+  align-self: flex-start;
+  height: 100px;
+  width: 100px;
+}
+
+.headerlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid red;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+  margin: 10px;
+}
+
+.introbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border: 5px solid red;
+}
