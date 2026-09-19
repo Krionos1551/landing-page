@@ -8,8 +8,8 @@
 .logopic {
   display: flex;
   align-self: flex-start;
-  height: 75px;
-  width: 150px;
+  height: 100px;
+  width: 125px;
 }
 
 .awesome {
@@ -20,6 +20,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 5px;
+  padding: 20px;
+  padding-bottom: 0px;
 }
 
 ul {
@@ -41,18 +44,23 @@ p{
 .introbox {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  
 }
 
 .intropic{
-  padding: 50px;
-  margin: 50px;
+  padding: 40px;
+  margin: 40px;
+}
+
+.watermellon {
+  height: 150px;
+  width: 300px;
 }
 
 .introtext{
-padding: 75px;
+padding: 50px;
+padding-top: 0px;
 }
 
 .information{
@@ -65,7 +73,7 @@ align-items: center;
 .cardbox {
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  padding: 30px;
   align-items: center;
 }
 
@@ -73,21 +81,23 @@ align-items: center;
   display: flex;
   flex-direction: column;
   width: 150px;
-  margin: 15px;
+  margin: 20px;
   margin-bottom: 10px;
   align-items: center;
 }
 
 .cardpic {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 10px;
   border: 5px solid royalblue;
+  border-radius: 8px;
 }
 
 .cardtext {
   margin: 5px;
   margin-left: 5px;
+  text-align: center;
 }
 
 
@@ -97,17 +107,77 @@ align-items: center;
   padding-left: 200px;
   padding-right: 200px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .quote {
   font-style: italic;
-  font-size: 25px;
+  font-size: 25px;  
 }
 
 .quotesorce {
   font-weight: bold;
-  padding-left: 330px;
   padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
 }
 
+.holderbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ 
+}
+
+.actionbox {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+
+.clickbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color:deepskyblue;
+  border-radius: 8px;
+  margin: 50px;
+}
+
+.clicktext {
+  margin: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+.smalltext {
+  font-size: 20px;
+}
+
+.signup {
+  background-color: darkblue ;
+  border-radius: 8px;
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+
+.footer {
+  background-color: navy;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+
+.foottext {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
