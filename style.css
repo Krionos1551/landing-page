@@ -1,28 +1,31 @@
 .headerbox {
   display: flex;
   flex-direction: column;
-  background-color: darkblue;
+  background-color: teal;
   justify-content: space-between;
-  border: 5px solid red;
 }
 
 .logopic {
   display: flex;
   align-self: flex-start;
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 150px;
+}
+
+.awesome {
+  font-size: 40px;
 }
 
 .headerlinks {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 5px solid red;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  margin: 5px;
 }
 
 a {
@@ -31,9 +34,80 @@ a {
   margin: 10px;
 }
 
+p{
+  color: lightgray;
+}
+
 .introbox {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  border: 5px solid red;
+  justify-content: space-between;
+  align-items: center;
+  
 }
+
+.intropic{
+  padding: 50px;
+  margin: 50px;
+}
+
+.introtext{
+padding: 75px;
+}
+
+.information{
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.cardbox {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 15px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.cardpic {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 5px solid royalblue;
+}
+
+.cardtext {
+  margin: 5px;
+  margin-left: 5px;
+}
+
+
+.quotebox {
+  background-color: lightgray;
+  padding: 75px;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.quotesorce {
+  font-weight: bold;
+  padding-left: 330px;
+  padding-top: 5px;
+}
+
